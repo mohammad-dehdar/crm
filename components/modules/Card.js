@@ -19,10 +19,10 @@ export default function CustomerCard({ customer }) {
     <Card className="transition-all duration-300 mb-4 ">
       <CardContent className="flex justify-between items-center py-4 px-2">
         <div className="flex items-center gap-6">
-          <p className="text-xl capitalize">
+          <p className="text-xl capitalize max-sm:text-sm">
             {customer.name} {customer.lastName}
           </p>
-          <p className="border p-1 rounded-md">
+          <p className="border p-1 rounded-md max-sm:hidden">
             {customer.email}
           </p>
         </div>
