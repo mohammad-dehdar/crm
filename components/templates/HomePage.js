@@ -1,6 +1,7 @@
 import Card from "../modules/Card"
 
-function HomePage({customers}) {    
+function HomePage({customers}) { 
+   
   return (
     <div>
         {
